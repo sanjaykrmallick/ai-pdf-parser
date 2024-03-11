@@ -1,9 +1,9 @@
 {
-  "name": "express-skeleton-3",
+  "name": "ai-pdf-parser",
   "version": "1.0.0",
   "description": "A Skeleton Application",
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "scripts": {
     "start": "npm run serve",
@@ -19,22 +19,22 @@
     "gendoc": "apidoc -i routes/ -o public/docs"
   },
   "dependencies": {
-    "agenda": "^4.2.1",
+    "agenda": "^6.0.0",
     "bcrypt": "^5.0.1",
-    "cookie-parser": "~1.4.4",
+    "cookie-parser": "~1.4.5",
     "cors": "^2.8.5",
-    "cuid": "^2.1.8",
-    "debug": "~2.6.9",
+    "cuid": "^2.1.9",
+    "debug": "~4.3.2",
     "dotenv": "^16.0.0",
-    "ejs": "~2.6.1",
-    "email-templates": "^8.0.10",
-    "express": "~4.16.1",
+    "ejs": "~3.1.6",
+    "email-templates": "^9.0.0",
+    "express": "~4.17.1",
     "express-jwt": "^6.1.1",
-    "helmet": "^5.0.2",
-    "http-errors": "~1.6.3",
-    "mongodb-memory-server": "^8.4.1",
+    "helmet": "^5.4.1",
+    "http-errors": "~1.8.0",
+    "mongodb-memory-server": "^10.0.1",
     "mongoose": "^6.2.6",
-    "morgan": "~1.9.1",
+    "morgan": "~1.10.0",
     "randomstring": "^1.2.2"
   },
   "eslintIgnore": [
@@ -42,15 +42,15 @@
     "bin/"
   ],
   "devDependencies": {
-    "apidoc": "^0.17.7",
-    "ava": "^4.1.0",
+    "apidoc": "^0.18.0",
+    "ava": "^5.0.0",
     "eslint": "^8.10.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-base": "^16.1.0",
     "eslint-plugin-import": "^2.25.4",
-    "faker": "^6.6.6",
-    "husky": "^7.0.4",
-    "nodemon": "^2.0.15",
-    "nyc": "^15.1.0"
+    "faker": "^7.0.1",
+    "husky": "^8.0.0",
+    "nodemon": "^2.1.7",
+    "nyc": "^16.0.0"
   },
   "husky": {
     "hooks": {
